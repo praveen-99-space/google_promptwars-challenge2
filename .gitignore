@@ -1,0 +1,35 @@
+# ================================================================
+# Files that must NEVER be committed or submitted
+# ================================================================
+.env
+*.log
+*.tmp
+*.cache
+deploy.ps1
+project_summary.txt
+# ================================================================
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+ENV/
+env/
+.DS_Store
+.pytest_cache/
+.coverage
+htmlcov/
+.vscode/
+.idea/
+.env.local
+*.key
+*.pem
+service-account.json
