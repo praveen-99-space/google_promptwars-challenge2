@@ -11,6 +11,21 @@ from typing import Any, Dict, Optional
 
 from ..config import config
 
+from ..constants import (
+    AUDIT_ACTION_API_CALL,
+    AUDIT_ACTION_CHAT,
+    AUDIT_ACTION_ERROR,
+    AUDIT_ACTION_EXPORT,
+    AUDIT_ACTION_LOGIN,
+    FIRESTORE_COLLECTION_AUDIT_LOGS,
+    FIRESTORE_FIELD_ACTION,
+    FIRESTORE_FIELD_IP_ADDRESS,
+    FIRESTORE_FIELD_MESSAGE,
+    FIRESTORE_FIELD_STATUS,
+    FIRESTORE_FIELD_TIMESTAMP,
+    FIRESTORE_FIELD_USER_ID,
+)
+
 logger = logging.getLogger(__name__)
 
 
